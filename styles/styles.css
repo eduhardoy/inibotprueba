@@ -20,11 +20,11 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   max-height: 140px;
   display: flex;
   justify-content: space-around;
-  background-color: #ffffff;
+  background-color: #30383f;
   box-shadow: 0px 8px 9px -1px rgba(125, 120, 120, 0.6);
   font-family: "Syne Mono", monospace;
   font-size: 20px;
@@ -37,7 +37,10 @@ header {
   justify-content: center;
 }
 .logo img {
-  width: 15vw;
+  width: auto;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .menu {
@@ -59,7 +62,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: #30383f;
+  color: #ffffff;
 }
 
 .hero {
@@ -82,14 +85,21 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
   margin-left: 20px;
+  grid-column: 1;
 }
 
 .title h1 {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
-  text-shadow: 5px 2px 7px #919191;
+}
+
+.title h2 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
 }
 
 .title h1 strong {
@@ -159,4 +169,50 @@ a {
   background: #4caf50;
   border: solid white 2px;
   color: white;
+}
+
+.tec {
+  background-color: #f0f2f5;
+}
+
+.tec h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #30383f;
+}
+
+.tec img {
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 130px;
+}
+
+.tec ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.tec ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 3%;
+  height: 100px;
+  width: 14%;
+  margin-bottom: 3%;
+}
+
+.contact {
+  background-color: #30383f;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #ffffff;
 }
