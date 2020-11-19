@@ -24,9 +24,9 @@ header {
   max-height: 140px;
   display: flex;
   justify-content: space-around;
-  background-color: #30383f;
+  background-color: #ffffff;
   box-shadow: 0px 8px 9px -1px rgba(125, 120, 120, 0.6);
-  font-family: "Syne Mono", monospace;
+  font-family: "Monserrat", monospace;
   font-size: 20px;
   position: sticky;
 }
@@ -38,7 +38,7 @@ header {
 }
 .logo img {
   width: auto;
-  height: 80px;
+  height: 60px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -62,7 +62,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #30383f;
 }
 
 .hero {
@@ -118,7 +118,7 @@ a {
 .formnow form {
   width: 70%;
   height: 80%;
-  background: rgba(46, 54, 61, 0.5);
+  background: rgba(46, 54, 61, 0.3);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -178,25 +178,33 @@ a {
   font-family: "Montserrat";
 }
 
-.tec {
+.formbutton:hover {
+  background: #38eb3e;
+}
+
+.tecno {
   background-color: #f0f2f5;
 }
 
-.tec h2 {
+.tecno .container {
+  border-bottom: 3px solid #30383f;
+}
+
+.tecno h2 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 40px;
   color: #30383f;
 }
 
-.tec img {
+.tecno img {
   height: auto;
   max-height: 100%;
   width: auto;
   max-width: 130px;
 }
 
-.tec ul {
+.tecno ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -204,7 +212,7 @@ a {
   width: 100%;
 }
 
-.tec ul li {
+.tecno ul li {
   display: flex;
   align-items: center;
   margin-right: 3%;
@@ -213,13 +221,113 @@ a {
   margin-bottom: 3%;
 }
 
+.about {
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #30383f;
+}
+
+.about .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abouttext {
+  width: 100%;
+  text-align: center;
+}
+
 .contact {
-  background-color: #30383f;
+  background-color: #f0f2f5;
 }
 
 .contact h2 {
   text-align: center;
+  color: #30383f;
+}
+
+.contactinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.formcontnow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.formcontnow form {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formcontnow form h1 {
+  color: #30383f;
+  font-size: 20px;
+  text-align: center;
+}
+
+.formcontname {
+  width: 85%;
+  height: 8%;
   margin-top: 20px;
-  margin-bottom: 40px;
-  color: #ffffff;
+  background: transparent;
+  border: solid white 2px;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  padding: 10px;
+}
+
+.formcontemail {
+  width: 85%;
+  height: 8%;
+  margin-top: 15px;
+  background: transparent;
+  border: solid white 2px;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  padding: 10px;
+}
+
+.formconttext {
+  width: 85%;
+  height: 24%;
+  margin-top: 15px;
+  background: transparent;
+  border: solid white 2px;
+  color: white;
+  box-sizing: border-box;
+  resize: none;
+  font-family: "Montserrat";
+  padding: 10px;
+}
+
+.formcontbutton {
+  width: 30%;
+  height: 15%;
+  margin-top: 20px;
+  background: #4caf50;
+  border: solid white 2px;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.formcontbutton:hover {
+  background: #38eb3e;
+}
+
+.contdata {
+  width: 50%;
 }
